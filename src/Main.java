@@ -5,9 +5,9 @@ public class Main {
         System.out.println("Задача 1");
         int desiredSum = 2_459_000;
         int sum = 0;
-        int amount = 15000;
+        int amount = 15_000;
         int month = 0;
-        double percent = 1D / 100;
+        double percent = 12D / 100;
         while (sum < desiredSum) {
             sum += amount;
             sum = (int) (sum * (1 + percent));
@@ -19,11 +19,11 @@ public class Main {
         int number = 0;
         while (number < 10) {
             number++;
-            System.out.println(number + " ");
+            System.out.print(number + " ");
         }
         System.out.println();
         for (; number >= 1; number--) {
-            System.out.println(number + " ");
+            System.out.print(number + " ");
         }
         System.out.println();
         System.out.println("Задача 3");
